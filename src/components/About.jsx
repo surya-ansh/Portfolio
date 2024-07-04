@@ -34,7 +34,7 @@ const About = () => {
 
                     </p>
                     <div className=' mt-7 scale-90 lg:scale-100  ease-in-out  '>
-                        <button className='hero-btn  py-4 slider2 uppercase  bg-inherit text-white  p-10     border-2  shadow-white   hover:-translate-y-2  hover:bg-green-600  '>Get In Touch</button>
+                        <a href="#contact"><button className='hero-btn  py-4 slider2 uppercase  bg-inherit text-white  p-10     border-2  shadow-white   hover:-translate-y-2  hover:bg-green-600  '>Get In Touch</button></a>
                     </div>
 
                 </div>

@@ -51,3 +51,19 @@ span{
  
 }
 
+/* sidemenu animation */
+
+@keyframes righttoleftin {
+  from{
+    transform: translateX(200px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+
+.sidemenu{
+  background-color: rgb(0, 0, 24);
+  animation: righttoleftin 0.3s linear;
+  transition: ease-in-out;
+}

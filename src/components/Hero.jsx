@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
 
             <div className=' mt-7 scale-90 lg:scale-100 transition ease-in-out hover:-translate-y-2'>
-                <button className='py-4 hero-btn slider2 uppercase bg-inherit bg-black text-white  p-10   border-2  shadow-white    hover:bg-purple-600  '>Take a look on my Resume <i className="fa-solid fa-download ml-3 animate-bounce"></i></button>
+                <button className='py-4 hero-btn slider2 uppercase bg-inherit bg-black text-white  p-10   border-2  shadow-white    hover:bg-green-600  '>Take a look on my Resume <i className="fa-solid fa-download ml-3 animate-bounce"></i></button>
             </div>
 
             

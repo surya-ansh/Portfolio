@@ -1,19 +1,20 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { RxExternalLink } from 'react-icons/rx';
-import projectImage1 from '../assets/Portfolio1.png';
+import projectImage2 from '../assets/Portfolio2.png';
+
 
 const Portfolio2 = () => {
   const projectsData = [
     {
-      image: projectImage1,
+      image: projectImage2,
       heading: 'Personal Project',
       title: 'NSXMOVIES',
       detail: 'NSXMOVIES: Manage your movie watchlist, discover new films, track watched movies, and explore detailed movie information easily.',
-      frontendSkill: 'React, Tailwind, CSS',
+      frontendSkill: 'HTML, Bootstrap, CSS, Javascript, APIs',
       backendSkill: 'Local Storage',
-      githubLink: 'https://github.com/yourusername/food-del',
-      externalLink: 'https://example.com/food-del',
+      githubLink: 'https://github.com/surya-ansh/MovieApp',
+      externalLink: 'https://moviesjnx.netlify.app/',
       githubIcon: <FaGithub />,
       externalLinkIcon: <RxExternalLink />,
     },
@@ -31,7 +32,7 @@ const Portfolio2 = () => {
             <h1 className="absolute tlg:top-0 top-2 left-6 text-6xl lg:text-9xl opacity-50 hover:opacity-100">02</h1>
             <img
               className="w-full h-[230px]  lg:w-auto lg:h-auto transition ease-in-out "
-              src={projectImage1}
+              src={projectImage2}
               alt="Project"
             />
           </div>

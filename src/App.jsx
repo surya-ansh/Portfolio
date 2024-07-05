@@ -10,6 +10,7 @@ import { Routes, Route } from 'react-router-dom'
 import Skills from './components/Skills'
 import Test from './components/Test'
 import Contact from './components/Contact'
+import Portfolio3 from './components/Portfolio3'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       {/* <Socials/> */}
       <Hero />
       <Portfolio1 />
+      <Portfolio3 />
       <Portfolio2 />
       <About />
       <Skills />

@@ -28,7 +28,7 @@ const Portfolio1 = () => {
       <div className=" flex flex-col lg:flex-row lg:px-8 lg:w-4/5 m-auto gap-10 items-center mt-10 bg-slate-950 w-full p-4 hover:scale-105 transition ease-in-out duration-200 shadow-gray-600 shadow-sm">
         {/* left content */}
         <div className="flex justify-center w-full lg:w-auto">
-          <div className="box h-[300px] w-full lg:h-[400px] lg:w-[600px] px-6 bg-gray-800 opacity-70 flex items-end relative">
+          <div className="box h-[300px] w-full lg:h-[400px] lg:w-[600px] px-6 bg-gray-800 opacity-80 flex items-end relative">
             <h1 className="absolute lg:top-14 top-8 right-6 text-3xl max-sm:text-2xl lg:text-6xl font-semibold opacity-65 hover:opacity-100">FOOD-DEL</h1>
             <h1 className="absolute lg:top-0 top-2 left-6 text-6xl lg:text-9xl opacity-50 hover:opacity-100">01</h1>
             <img
